@@ -44,3 +44,18 @@
 # Contoh notifikasi/peringatan:
 * Jika pembeli memasukkan jumlah lebih banyak dari stok, sistem akan menampilkan pesan: "Stok tidak mencukupi".
 * Jika sepatu yang dicari tidak ada, sistem akan memberi tahu: "Sepatu tidak ditemukan."
+
+4. Pengujian dan Evaluasi Performa (Jalanin Semua Programnya)
+   Pengujian dilakukan dengan menjalankan semua fitur dari aplikasi secara langsung. Saya mencoba beberapa skenario untuk memastikan program berjalan dengan benar.
+# Beberapa hal yang diuji:
+* Penambahan sepatu baru ke dalam stok.
+* Pemesanan sepatu dengan jumlah yang valid.
+* Simulasi pembelian dengan jumlah melebihi stok (hasilnya: sistem menolak dan memberi peringatan).
+* Melihat laporan pemasukan dan riwayat transaksi.
+* Mengetes input tidak valid (misalnya, sepatu yang tidak ada dalam daftar).
+# Hasil evaluasi:
+* Semua fitur berjalan sesuai fungsinya.
+* Program cukup ringan dan cepat dijalankan.
+* Tidak ada error fatal saat diuji dengan input yang bermacam-macam.
+* Sistem memberi feedback yang jelas ketika terjadi kesalahan input.
+  Aplikasi ini terbukti stabil dan efisien untuk kebutuhan sistem sederhana seperti pengelolaan toko sepatu. Ke depannya, sistem ini masih bisa dikembangkan lagi, misalnya dengan menyimpan data ke file atau menambahkan antarmuka grafis (GUI).
